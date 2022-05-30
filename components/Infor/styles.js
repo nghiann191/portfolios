@@ -7,16 +7,25 @@ const Wrapper = styled.div`
     animation-iteration-count: infinite;
     animation-direction: alternate;
     position: relative;
+    color: red;
 
     @keyframes welcome {
       0% {
         left: -200px;
         top: 0px;
+        color: red;
+      }
+      25% {
+        color: yellow;
+      }
+      50% {
+        color: blue;
       }
 
       100% {
         left: 200px;
         top: 0px;
+        color: green;
       }
     }
   }
