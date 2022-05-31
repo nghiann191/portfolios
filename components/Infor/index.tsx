@@ -72,7 +72,11 @@ const Infor = React.memo(function Infor() {
         borderBottom="1px solid #aaafb9"
         padding="2"
       >
-        <GridItem colSpan={1}>2005</GridItem>
+        <GridItem colSpan={1}>
+          <Heading as="h5" size="sm">
+            2005
+          </Heading>
+        </GridItem>
         <GridItem colSpan={4}>Graduation from Kindergarten</GridItem>
       </Grid>
       <Grid
@@ -81,7 +85,11 @@ const Infor = React.memo(function Infor() {
         borderBottom="1px solid #aaafb9"
         padding="2"
       >
-        <GridItem colSpan={1}>2010</GridItem>
+        <GridItem colSpan={1}>
+          <Heading as="h5" size="sm">
+            2010
+          </Heading>
+        </GridItem>
         <GridItem colSpan={4}>Graduation from primary school</GridItem>
       </Grid>
       <Grid
@@ -90,7 +98,11 @@ const Infor = React.memo(function Infor() {
         borderBottom="1px solid #aaafb9"
         padding="2"
       >
-        <GridItem colSpan={1}>2014</GridItem>
+        <GridItem colSpan={1}>
+          <Heading as="h5" size="sm">
+            2014
+          </Heading>
+        </GridItem>
         <GridItem colSpan={4}>Graduation from secondary school</GridItem>
       </Grid>
       <Grid
@@ -99,7 +111,11 @@ const Infor = React.memo(function Infor() {
         borderBottom="1px solid #aaafb9"
         padding="2"
       >
-        <GridItem colSpan={1}>2017</GridItem>
+        <GridItem colSpan={1}>
+          <Heading as="h5" size="sm">
+            2017
+          </Heading>
+        </GridItem>
         <GridItem colSpan={4}>Graduation from high school</GridItem>
       </Grid>
       <Grid
@@ -108,7 +124,11 @@ const Infor = React.memo(function Infor() {
         borderBottom="1px solid #aaafb9"
         padding="2"
       >
-        <GridItem colSpan={1}>2019</GridItem>
+        <GridItem colSpan={1}>
+          <Heading as="h5" size="sm">
+            2019
+          </Heading>
+        </GridItem>
         <GridItem colSpan={4}>
           Worked at BUNBUSOFT as Intern FrontEnd developer with Reactjs
         </GridItem>
@@ -119,7 +139,11 @@ const Infor = React.memo(function Infor() {
         borderBottom="1px solid #aaafb9"
         padding="2"
       >
-        <GridItem colSpan={1}>2020</GridItem>
+        <GridItem colSpan={1}>
+          <Heading as="h5" size="sm">
+            2020
+          </Heading>
+        </GridItem>
         <GridItem colSpan={4}>
           Worked at BUNBUSOFT as Parttime FrontEnd developer
         </GridItem>
@@ -130,7 +154,9 @@ const Infor = React.memo(function Infor() {
         padding="2"
       >
         <GridItem colSpan={1} rowSpan={2}>
-          2021
+          <Heading as="h5" size="sm">
+            2021
+          </Heading>
         </GridItem>
         <GridItem colSpan={4} rowSpan={1}>
           Graduation from VNU University of Engineering and Technology
