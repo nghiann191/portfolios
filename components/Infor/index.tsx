@@ -1,3 +1,5 @@
+import React from 'react';
+
 import {
   Avatar,
   Box,
@@ -8,11 +10,14 @@ import {
   Heading,
   Text,
 } from '@chakra-ui/react';
-import React from 'react';
-import Wrapper from './styles';
+import { useRouter } from 'next/router';
 import { BsChevronRight } from 'react-icons/bs';
 
+import Wrapper from './styles';
+
 const Infor = React.memo(function Infor() {
+  const router = useRouter();
+
   return (
     <Wrapper>
       <Heading textAlign={'center'} margin="10" className="text-welcome">
@@ -45,6 +50,7 @@ const Infor = React.memo(function Infor() {
           rightIcon={<BsChevronRight />}
           colorScheme="teal"
           variant="outline"
+          onClick={() => router.push('/works')}
         >
           My Portfolio
         </Button>
